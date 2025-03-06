@@ -1,0 +1,18 @@
+public class Exer8{
+	public static void main(String[] args){
+  //Declarar variáveis
+      double peso, a, b;
+      Scanner ler = new Scanner(System.in);
+//Entrada de dados
+        System.out.println("INSIRA SEU PESO: ");
+      peso = ler.nextDouble();
+//Processamento
+      a= peso + (peso * 0.15);
+      b = peso - (peso * 0.2);
+//Saida de dados
+     System.out.println("A) engordou 15%: " + a);
+     System.out.println("B) Emagreceu 20%: " + b);
+
+
+	}
+}
