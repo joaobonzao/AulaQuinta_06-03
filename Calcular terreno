@@ -1,0 +1,20 @@
+# AulaQuinta_06-03
+public class Exer1{
+	public static void main(String[] args){
+     
+   // Declarar variáveis
+          double comprimento, largura, area;
+          Scanner ler = new Scanner(System.in);
+       // Entrada de dados
+          System.out.println("Digite o comprimento:");
+          comprimento = ler.nextDouble();
+          System.out.println("Digite a largura:");
+          largura = ler.nextDouble();
+       // Processamento
+          area = comprimento * largura;
+       // Saida de dados
+         System.out.println("Área do terreno: " + area);
+
+
+  }
+}
