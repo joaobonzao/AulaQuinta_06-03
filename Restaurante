@@ -1,0 +1,18 @@
+public class Exer6{
+	public static void main(String[] args){
+//Declarar variáveis
+          double valor, valorPagamento, peso;
+          Scanner ler = new Scanner(System.in);
+ //Entrada de dados
+         valor = 21.50;
+         System.out.println("Preço do KG: " + valor);
+         System.out.println("Insira o peso do prato.");
+         peso = ler.nextDouble();
+ //Processamento
+         valorPagamento = peso * valor;
+//Saida de dados
+         System.out.println("Valor do prato: " + valorPagamento);
+
+
+	}
+}
