@@ -1,0 +1,22 @@
+public class Exer7{
+	public static void main(String[] args){
+     //Declarar variáveis
+            int numero, centena, dezena, unidade;
+            Scanner ler = new Scanner(System.in);
+        //Entrada de dados
+           System.out.println("Insira o número: "); 
+           numero = ler.nextInt();
+        //Processamento
+           centena = numero /100;
+           dezena = (numero % 100)/10;
+           unidade = numero % 10;
+        //Saida de dados
+           System.out.println("Número: " + numero);
+           System.out.println(centena + " Centenas");
+           System.out.println(dezena + " Dezenas");
+           System.out.println(unidade + " Unidades");
+
+
+
+	}
+}
