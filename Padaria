@@ -1,0 +1,22 @@
+public class Exer4{
+	public static void main(String[] args){
+	//Declarar variáveis
+              double pao, croissant, total, poupanca;
+              int quantidadePao, quantidadeCroissant;
+              Scanner ler = new Scanner(System.in);        
+        //Entrada de dados
+              System.out.println("Quantos pãos foram vendidos?");
+              quantidadePao = ler.nextInt();
+              pao = 0.60;
+              System.out.println("Quantos Croisssant foram vendidos?");
+              quantidadeCroissant = ler.nextInt();
+              croissant = 2.50;
+        //Processamento
+              total = (pao * quantidadePao) + (croissant * quantidadeCroissant);
+              poupanca = total * 0.1;
+        //Saida de dados
+              System.out.println("Arrecadado: " + total + " Reais");
+              System.out.println("Poupança: " + poupanca + " Reais");
+
+	}
+}
