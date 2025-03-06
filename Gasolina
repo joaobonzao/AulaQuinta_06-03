@@ -1,0 +1,18 @@
+public class Exer5{
+	public static void main(String[] args){
+//Declarar variáveis
+         double litros, valor, valorPagamento;
+         Scanner ler = new Scanner(System.in);
+ //Entrada de dados
+         valor = 5.50;
+         System.out.println("Valor: " + valor);
+         System.out.println("Valor pagamento:");
+         valorPagamento = ler.nextDouble();
+            
+  //Processamento
+         litros = valorPagamento / valor;
+ //Saida de dados
+        System.out.println("Litros: " + litros);
+
+	}
+}
